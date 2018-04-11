@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+window.onload=function(){
 console.log("ready");
     setTimeout(function(){ 
 
@@ -40,6 +40,6 @@ setTimeout(function(){
 
 } , 1000);
   
-});
+};
 
 
