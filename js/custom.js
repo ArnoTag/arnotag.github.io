@@ -1,17 +1,13 @@
-jQuery( document ).ready(function() {
-    var orderbutton, cartbutton;
+$( document ).ready(function() {
 
     setTimeout(function(){ 
 
-  var orderbutton2 = document.getElementById("place_order");
-} , 5000); 
+  var orderbutton = document.getElementById("place_order");
+
 
   if (orderbutton) {
   orderbutton.addEventListener("click", function() {
-    var pricespan = document.querySelector(".order-total .woocommerce-Price-amount").textContent;
-    pricespan = parseFloat(pricespan.replace('€', ''));
-    event.preventDefault();
-    window.alert("sometext");
+    console.log("order");
  /*   gtag('event', 'Submit', {
         'event_category': 'Order',
         'value': pricespan       
@@ -22,6 +18,8 @@ jQuery( document ).ready(function() {
 
 
   }
+
+} , 5000); 
 
 
 
