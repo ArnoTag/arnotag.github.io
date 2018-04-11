@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-
+console.log("ready");
     setTimeout(function(){ 
 
   var orderbutton = document.getElementById("place_order");
